@@ -5,7 +5,6 @@ see http://stackoverflow.com/questions/6871996/css-two-inline-block-width-50-ele
     font-size: 0;
 }
 
-
 /* Box sizing */
 
 * {
@@ -14,3 +13,34 @@ see http://stackoverflow.com/questions/6871996/css-two-inline-block-width-50-ele
 
 
 /* Assign styles here */
+.wrapper {
+	display: inline-block;
+	font-size: 2rem;
+	border: solid white 2px;
+	background: #dad9d9;
+}
+
+#photo {
+	height: 400px;
+	background: gray;
+}
+
+#photo-label {
+	font-size: 2rem;
+	color: white;
+	text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+	.wrapper {
+		width: 50%;
+	}
+
+	#photo-label {
+		visibility: hidden;
+	}
+
+	#photo {
+		background-image: url(../imgs/peacock.jpeg);
+	}
+}

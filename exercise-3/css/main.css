@@ -1,4 +1,15 @@
 /* Assign styles here */
+.col {
+	text-align: center;
+}
+
+h1 {
+	font-weight: 300;
+}
+
+#icon {
+	margin-bottom: 10px;
+}
 
 * {
     box-sizing: border-box;

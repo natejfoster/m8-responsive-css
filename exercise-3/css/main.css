@@ -7,10 +7,26 @@ h1 {
 	font-weight: 300;
 }
 
-#icon {
+* {
+    box-sizing: border-box;
+}
+
+i {
 	margin-bottom: 10px;
 }
 
-* {
-    box-sizing: border-box;
+.Gears {
+	color: #82b1ff;
+}
+
+.Bell {
+	color: #8c9eff;
+}
+
+.Anchor {
+	color: #b388ff;
+}
+
+.Asterisk {
+	color: #80d8ff;
 }
